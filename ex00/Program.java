@@ -19,7 +19,9 @@ public class Program {
                     } catch (InterruptedException interruptedException) {
                         System.out.println("Something interrupt tread");
                     }
-                    System.out.println("Human");
+                    for (int i = 0; i < count; ++i) {
+                        System.out.println("Human");
+                    }
                     System.exit(0);
                 }
                 catch (NumberFormatException numberFormatException) {
